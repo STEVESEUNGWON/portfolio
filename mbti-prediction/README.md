@@ -2,14 +2,38 @@
 
 
 
+
+
+
+
 ## 📝 Project Description
+
+
+
+
+
 This project aims to predict the MBTI personality type based on personal statements. The model analyzes text data using Natural Language Processing (NLP) and Machine Learning techniques to predict personality types. This can be used to suggest suitable careers or academic fields based on an individual's MBTI type.
 
+
+
+
+
+
+
 ## 🛠 Technologies Used
+
 - 🐍 Python
 - 🌐 Flask
 - 🗣 Natural Language Processing (NLP)
 - 🤖 Machine Learning
+
+
+
+
+
+
+
+
 
 
 
@@ -24,11 +48,24 @@ This project aims to predict the MBTI personality type based on personal stateme
 
 
 
+
+
+
+
+
+
+
 ## 2. 🏋️‍♂️ Train the Model:
 
 
 
 **python mbti_model.py** 
+
+
+
+
+
+
 
 
 
@@ -40,9 +77,9 @@ This project aims to predict the MBTI personality type based on personal stateme
 
 
 
-## 📁 Project Structure
 
-**http://127.0.0.1:5000/**
+
+
 
 
 
@@ -50,23 +87,12 @@ This project aims to predict the MBTI personality type based on personal stateme
 
 ## Project Structure 
 
-mbti-prediction/
-├── data/
-│ └── MBTI 500.csv
-│ └── MBTI 123.csv
-├── templates/
-│ ├── chart.html
-│ ├── index.html
-│ ├── service2_main.html
-│ └── service2_result.html
-├── MBTI_Prediction_machine.py
-├── mbti_model.py
-├── mbti_final.py
+![image](https://github.com/STEVESEUNGWON/portfolio/assets/159239472/81537d66-55f3-4935-b7cb-a7c15d30ab4f)
 
 
 
 ## 📸 Screenshots
-""Data analyize""
+***Data analyize***
 <div align="center">
   <img width="613" alt="Data Analysis 1" src="https://github.com/STEVESEUNGWON/portfolio/assets/159239472/8069cb81-3d24-4777-be43-8fd4ed3a1407">
   <img width="861" alt="Data Analysis 2" src="https://github.com/STEVESEUNGWON/portfolio/assets/159239472/7ceac9db-60c7-4162-8163-87b3ed10d057">
@@ -74,7 +100,28 @@ mbti-prediction/
 </div>
 
 
-"" MBTI prediction "" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+***MBTI prediction***
 <div align="center">
   <img width="829" alt="MBTI Prediction 1" src="https://github.com/STEVESEUNGWON/portfolio/assets/159239472/84c7d879-ddc6-477c-8260-d102a0960a56">
   <img width="839" alt="MBTI Prediction 2" src="https://github.com/STEVESEUNGWON/portfolio/assets/159239472/e9f2ec02-d1ca-4b49-aeec-e53f67c08df0">
