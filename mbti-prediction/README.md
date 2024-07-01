@@ -67,16 +67,18 @@ mbti-prediction/
 
 ## 📸 Screenshots
 ""Data analyize""
-<img width="613" alt="image" src="https://github.com/STEVESEUNGWON/portfolio/assets/159239472/8069cb81-3d24-4777-be43-8fd4ed3a1407">
-<img width="861" alt="image" src="https://github.com/STEVESEUNGWON/portfolio/assets/159239472/7ceac9db-60c7-4162-8163-87b3ed10d057">
-<img width="876" alt="image" src="https://github.com/STEVESEUNGWON/portfolio/assets/159239472/a9a4da85-6cb5-4b28-8d88-5e50e52c4789">
+<div align="center">
+  <img width="613" alt="Data Analysis 1" src="https://github.com/STEVESEUNGWON/portfolio/assets/159239472/8069cb81-3d24-4777-be43-8fd4ed3a1407">
+  <img width="861" alt="Data Analysis 2" src="https://github.com/STEVESEUNGWON/portfolio/assets/159239472/7ceac9db-60c7-4162-8163-87b3ed10d057">
+  <img width="876" alt="Data Analysis 3" src="https://github.com/STEVESEUNGWON/portfolio/assets/159239472/a9a4da85-6cb5-4b28-8d88-5e50e52c4789">
+</div>
 
 
 "" MBTI prediction "" 
-<img width="829" alt="image" src="https://github.com/STEVESEUNGWON/portfolio/assets/159239472/84c7d879-ddc6-477c-8260-d102a0960a56">
-<img width="839" alt="image" src="https://github.com/STEVESEUNGWON/portfolio/assets/159239472/e9f2ec02-d1ca-4b49-aeec-e53f67c08df0">
-
-
+<div align="center">
+  <img width="829" alt="MBTI Prediction 1" src="https://github.com/STEVESEUNGWON/portfolio/assets/159239472/84c7d879-ddc6-477c-8260-d102a0960a56">
+  <img width="839" alt="MBTI Prediction 2" src="https://github.com/STEVESEUNGWON/portfolio/assets/159239472/e9f2ec02-d1ca-4b49-aeec-e53f67c08df0">
+</div>
 
 
 ## 🎯 Results
@@ -90,8 +92,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🙏 Acknowledgements
 
-Kaggle for providing the dataset. u can use  your data anything. But your data should big data(not too short) 
-U should find your data u want.My projects ""mbti_final.py""0 and "" mbti_model.py "" is not same data.
-
+Kaggle for providing the dataset. You can use your own data, but ensure it is substantial (not too short). Find data that suits your project needs. Note that my projects "mbti_final.py" and "mbti_model.py" use different datasets.
 
 
