@@ -72,7 +72,7 @@ This project aims to predict the MBTI personality type based on personal stateme
 
 ## 3. 🌐 Running the Application
 
-**Run the Flask application: python MBTI_Prediction_machine.py**
+**Run the Flask application: python 1_MBTI_Prediction_machine.py**
 
 
 
