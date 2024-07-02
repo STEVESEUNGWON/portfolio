@@ -136,7 +136,8 @@ The MBTI prediction model successfully analyzes personal statements and predicts
 
 ## 📄 Detailed Documentation
 
-For more detailed information about the project, download the PDF documentation [here](https://github.com/STEVESEUNGWON/portfolio/blob/main/mbti-prediction/MBTI_Prediction_Project_Documentation.pdf).
+For more detailed information about the project, download the PDF documentation [here](https://github.com/STEVESEUNGWON/portfolio/blob/main/mbti-prediction/텍스트-분류-_-웹-플라스크구현.pdf).
+
 
 
 
