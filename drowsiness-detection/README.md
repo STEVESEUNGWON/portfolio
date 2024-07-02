@@ -118,11 +118,11 @@ http://127.0.0.1:5000/
 The face recognition and drowsiness detection service monitors the driver's status in real-time and alerts with high accuracy when drowsiness is detected.
 
 
+
+
 ## 📄 Detailed Documentation
 
-For more detailed information about the project, download the PDF documentation [here](https://github.com/STEVESEUNGWON/portfolio/blob/main/얼굴인식%20및%20졸음운전%20방지%20서비스.pdf).
-
-
+For more detailed information about the project, download the PDF documentation [here](https://github.com/STEVESEUNGWON/portfolio/blob/main/drowsiness-detection/얼굴인식%20및%20졸음운전%20방지%20서비스.pdf).
 
 
 
