@@ -132,6 +132,23 @@ This project aims to predict the MBTI personality type based on personal stateme
 
 The MBTI prediction model successfully analyzes personal statements and predicts personality types with a high level of accuracy.
 
+
+
+## 📄 Detailed Documentation
+
+For more detailed information about the project, download the PDF documentation [here](https://github.com/STEVESEUNGWON/portfolio/blob/main/mbti-prediction/MBTI_Prediction_Project_Documentation.pdf).
+
+
+
+
+
+
+
+
+
+
+
+
 ## ⚖️ License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
