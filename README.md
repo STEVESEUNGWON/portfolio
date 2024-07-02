@@ -1,4 +1,3 @@
-
 # Seungwon Yang's Portfolio
 
 Welcome to my GitHub portfolio. Here you will find my projects and accomplishments in the fields of Data Science, Machine Learning, and AI.
@@ -8,7 +7,6 @@ Welcome to my GitHub portfolio. Here you will find my projects and accomplishmen
 I am a data analyst, data scientist, and AI developer with a strong background in data collection, preprocessing, statistical analysis, and model deployment. I am proficient in Python, R, SQL, TensorFlow, and various other tools and frameworks. My goal is to extract valuable insights from data and contribute to business value.
 
 ## Skills
-
 - **Programming Languages:** Python, R, SQL
 - **Data Analysis:** pandas, NumPy, scikit-learn
 - **Machine Learning:** TensorFlow, Keras, PyTorch
@@ -18,12 +16,32 @@ I am a data analyst, data scientist, and AI developer with a strong background i
 
 ## Projects
 
-Here are some of the projects I have worked on:
+### MBTI Prediction Model
+- **Description:** Developed a model to predict MBTI personality types based on personal statements.
+- **Technologies:** Python, NLP, Machine Learning
 
-- [MBTI Prediction Model](./mbti-prediction)
-- [Drowsiness Detection and Facial Recognition Car Door System](./drowsiness-detection)
-- [Other Projects](./기타 프로젝트들)
+### Drowsiness Detection and Facial Recognition Car Door System
+- **Description:** Implemented a system to detect drowsiness and control car doors using facial recognition.
+- **Technologies:** Python, OpenCV, Facial Recognition, YOLO, LBPH, WebFlask
 
-## License
+## Education
+- **University:** Gongju National University (Expected graduation: July 2023)
+- **Major:** Computer Science
+- **High School:** Anbeop High School (Graduated: February 2016)
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Certifications and Awards
+- **Data Analysis Semi-Professional (ADsP):** Passed, November 2023
+- **Big Data Analysis Engineer:** Passed 1st stage, September 2023
+- **Information Processing Engineer:** Passed, June 2024
+- **TOEIC Speaking Test:** 130 points, Intermediate Mid3, March 2024
+- **Attendance Award:** ITWILL Education Institute, January 2024
+- **Driver's License (Type 2):** Passed, May 2022
+
+## Contact
+- **Email:** did******@naver.com
+- **Phone:** 010-****-2854
+- **Location:** Pyeongtaek, Gyeonggi-do, South Korea
+
+## Portfolio Website
+Check out my portfolio website [here](https://STEVESEUNGWON.github.io/portfolio/).
+
