@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background: #282c34;
+    background: linear-gradient(90deg, rgba(33,37,41,1) 0%, rgba(44,62,80,1) 100%);
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -25,8 +25,8 @@ header {
 
 .profile-img {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     margin-bottom: 15px;
     border: 3px solid #61dafb;
 }
@@ -78,6 +78,21 @@ nav ul li a:hover {
 
 h1, h2, h3 {
     margin: 0 0 20px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.ai-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #61dafb;
 }
 
 .project {
