@@ -16,6 +16,25 @@ header {
     z-index: 1000;
 }
 
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+    border: 3px solid #61dafb;
+}
+
+.profile-text {
+    text-align: center;
+}
+
 nav {
     background: #61dafb;
     padding: 10px 0;
