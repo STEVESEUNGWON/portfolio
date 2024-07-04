@@ -1,75 +1,454 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>양승원의 포트폴리오</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <script defer src="js/scripts.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="IAMX, One Page Responsive HTML Resume Template">
+  <meta name="keywords" content="onepage, resume, CV HTML template, personal Vcard, html resume, free resume template, free HTML template, free bootstrap template, personal portfolio, free html portfolio">
+	<meta name="author" content="http://trendytheme.net/">
+
+	<title>IAMX – Responsive Personal Portfolio vCard Template</title>
+
+  <!-- Web Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+	<!-- Bootstrap core CSS -->
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<!-- Font Awesome CSS -->
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+	<!-- Animate css -->
+  <link href="assets/css/animate.css" rel="stylesheet">
+  <!-- Magnific css -->
+	<link href="assets/css/magnific-popup.css" rel="stylesheet">
+	<!-- Custom styles CSS -->
+	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+  <!-- Responsive CSS -->
+  <link href="assets/css/responsive.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <link rel="shortcut icon" href="assets/images/ico/favicon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/images/ico/apple-touch-icon-57-precomposed.png">
+
 </head>
+
 <body>
-    <header>
-        <div class="profile-container">
-            <img src="https://github.com/STEVESEUNGWON/portfolio/blob/main/img/%EB%82%B4%EC%82%AC%EC%A7%84.jpg" alt="양승원" class="profile-img">
-            <div class="profile-text">
-                <h1>양승원</h1>
-                <p>데이터 분석가 | 데이터 사이언티스트 | AI 개발자</p>
+	<!-- Preloader -->
+	<div id="tt-preloader">
+		<div id="pre-status">
+			<div class="preload-placeholder"></div>
+		</div>
+	</div>
+
+	<!-- Home Section -->
+	<section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+		<div class="intro">
+			<div class="intro-sub"></div>
+			<h1>AI <span>Developer</span></h1>
+			<p>저는 데이터 분석가, 데이터 사이언티스트, AI 개발자입니다.<br> 최신 웹 디자인 및 기술과 함께 일하는 것이 즐겁습니다.<br> 언제든지 창의적인 연락을 환영합니다.</p>
+		</div>
+
+		<div class="mouse-icon">
+			<div class="wheel"></div>
+		</div>
+	</section><!-- End Home Section -->
+
+	<!-- Navigation -->
+	<header class="header">
+		<nav class="navbar navbar-custom" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+
+				<div class="collapse navbar-collapse" id="custom-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#resume">Resume</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#works">Works</a></li>
+					</ul>
+				</div>
+			</div><!-- .container -->
+		</nav>
+	</header><!-- End Navigation -->
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">About Me</h2>
+
+        <div class="row">
+
+          <div class="col-md-4 col-md-push-8">
+            <div class="biography">
+              <div class="myphoto">
+                <img src="assets/images/내사진.jpg" alt="">
+              </div>
+              <ul>
+                <li><strong>이름:</strong> 양승원</li>
+                <li><strong>생년월일:</strong> 1997년 12월 05일</li>
+                <li><strong>주소:</strong> 경기 평택시 현촌3길 239/2</li>
+                <li><strong>국적:</strong> 대한민국</li>
+                <li><strong>전화:</strong> 010-****-2854</li>
+                <li><strong>이메일:</strong> did******@naver.com</li>
+              </ul>
+            </div>
+          </div> <!-- col-md-4 -->
+
+          <div class="col-md-8 col-md-pull-4">
+            <div class="short-info wow fadeInUp">
+              <h3>목표</h3>
+              <p>저는 데이터 분석가, 데이터 사이언티스트, AI 개발자로서 데이터 수집, 전처리, 통계 분석, 모델 배포에 강한 배경을 가지고 있습니다. Python, R, SQL, TensorFlow 등 다양한 도구와 프레임워크를 능숙하게 다루며, 데이터를 기반으로 인사이트를 도출하고 비즈니스 가치를 창출하는 것을 목표로 하고 있습니다.</p>
+            </div>
+
+            <div class="short-info wow fadeInUp">
+              <h3>나의 역할</h3>
+              <p>저는 웹 인터페이스 디자이너로 일한 경험이 있으며, 깔끔하고 우아한 스타일링을 사랑하고, 최신 웹사이트를 위한 CSS3 및 HTML5 제작에 많은 경험이 있습니다. 저는 사용자의 경험을 생각하며, 고객의 요구에 맞는 멋진 디자인을 만들기 위해 노력합니다.</p>
+
+              <ul class="list-check">
+                <li>사용자 경험 디자인</li>
+                <li>인터페이스 디자인</li>
+                <li>제품 디자인</li>
+                <li>브랜딩 디자인</li>
+                <li>디지털 페인팅</li>
+                <li>비디오 편집</li>
+              </ul>
+            </div>
+          </div>
+
+        </div> <!-- /.row -->
+      </div> <!-- /.container -->
+    </section><!-- End About Section -->
+
+    <!-- Certification Section -->
+    <section id="certifications" class="certifications-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">Certifications</h2>
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="certifications-list">
+              <li>📊 <strong>데이터 분석 준전문가(ADsP)</strong> - 2023년 11월</li>
+              <li>📈 <strong>빅데이터 분석기사</strong> - 2023년 9월</li>
+              <li>💻 <strong>정보처리기사</strong> - 2024년 6월</li>
+              <li>🗣️ <strong>TOEIC Speaking Test</strong> - 2024년 3월 (130점 / Intermediate Mid 3)</li>
+              <li>🏆 <strong>출석 우수상</strong> - 2024년 1월</li>
+              <li>🚗 <strong>2종 보통 운전면허</strong> - 2022년 5월</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Certification Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section section-padding">
+        <div class="container">
+            <h2 class="section-title wow fadeInUp">Resume</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="resume-title">
+                        <h3>학력</h3>
+                    </div>
+                    <div class="resume">
+                        <ul class="timeline">
+                            <li>
+                                <div class="posted-date">
+                                    <span class="month">2017.03 ~ 2023.07</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>공주대학교(천안)</h3>
+                                            <span>컴퓨터공학과, 대학교(4년) 졸업예정</span>
+                                        </div><!-- /timeline-heading -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+
+                            <li class="timeline-inverted">
+                                <div class="posted-date">
+                                    <span class="month">2013.03 ~ 2016.02</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>안법고등학교</h3>
+                                            <span>이과계열</span>
+                                        </div><!-- /timeline-heading -->
+                                    </div> <!-- /timeline-content -->
+                                </div> <!-- /timeline-panel -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- /row -->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="resume-title">
+                        <h3>경험/활동/교육</h3>
+                    </div>
+                    <div class="resume">
+                        <ul class="timeline">
+                            <li class="timeline-inverted">
+                                <div class="posted-date">
+                                  <span class="month">2023.08 ~ 2024.01</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>아이티윌교육연수기관</h3>
+                                            <span>SQL, Python, R 프로그래밍 언어 학습 및 프로젝트 수행</span>
+                                        </div><!-- /timeline-heading -->
+                                        <div class="timeline-body">
+                                            <p>SQL 데이터베이스 쿼리 언어를 학습하였습니다.</p>
+                                            <p>Python 프로그래밍 언어의 기초와 고급 기술을 습득하였습니다.</p>
+                                            <p>Python을 사용하여 대용량 데이터를 분석하고 해석하는 기술을 학습하였습니다.</p>
+                                            <p>R 프로그래밍 언어를 활용하여 통계 데이터 분석을 수행하는 방법을 배웠습니다.</p>
+                                            <p>Python을 이용한 머신러닝, 딥러닝 알고리즘의 이론과 실전 적용을 학습하였습니다.</p>
+                                            <p>또한 프로젝트 2개를 구현하였습니다.</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div> <!-- /timeline-panel -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- /row -->
+        </div><!-- /.container -->
+    </section><!-- End Resume Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">Skills</h2>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="skill-progress">
+              <div class="skill-title"><h3>UX Design</h3></div> 
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" ><span>95%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+
+            <div class="skill-progress">
+              <div class="skill-title"><h3>Visual Design</h3></div> 
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+            <div class="skill-progress">
+              <div class="skill-title"><h3>Business Design</h3></div>  
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span>75%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+          </div><!-- /.col-md-6 -->
+
+          <div class="col-md-6">
+            <div class="skill-progress">
+              <div class="skill-title"><h3>Branding Design</h3></div> 
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" ><span>95%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+            <div class="skill-progress">
+              <div class="skill-title"><h3>Motion Graphic</h3></div> 
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+            <div class="skill-progress">
+              <div class="skill-title"><h3>Flyers Designing</h3></div>  
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span>75%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+          </div><!-- /.col-md-6 -->
+        </div><!-- /.row -->
+
+        <div class="skill-chart text-center">
+          <h3>More skills</h3>
+        </div>
+          
+        <div class="row more-skill text-center">
+          <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="91" data-color="e74c3c">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>leadership</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="23" data-color="2ecc71">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>Creativity</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="68" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>Management</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="68" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>Branding</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="68" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>Marketing</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="68" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>Motivation</span>
+                    </div>
+                </div>
             </div>
         </div>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#about">소개</a></li>
-            <li><a href="#skills">기술</a></li>
-            <li><a href="#projects">프로젝트</a></li>
-            <li><a href="#contact">연락처</a></li>
+
+      </div><!-- /.container -->
+    </section><!-- End Skills Section -->
+
+    <!-- Works Section -->
+    <section id="works" class="works-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">Projects</h2>
+
+        <ul class="list-inline" id="filter">
+            <li><a class="active" data-group="all">All</a></li>
+            <li><a data-group="design">Design</a></li>
+            <li><a data-group="web">Web</a></li>
+            <li><a data-group="interface">Interface</a></li>
+            <li><a data-group="identety">Identity</a></li>
         </ul>
-    </nav>
-    <section id="about" class="section">
-        <h2>소개</h2>
-        <div class="about-container">
-            <p>
-                저는 데이터 분석가, 데이터 사이언티스트, AI 개발자로서 데이터 수집, 전처리, 통계 분석, 모델 배포에 강한 배경을 가지고 있습니다.
-                Python, R, SQL, TensorFlow 등 다양한 도구와 프레임워크를 능숙하게 다루며, 데이터를 기반으로 인사이트를 도출하고 비즈니스 가치를 창출하는 것을 목표로 하고 있습니다.
-            </p>
-            <img src="https://via.placeholder.com/300x200.png?text=AI+Image" alt="AI Image" class="ai-image">
+
+        <div class="row">
+          <div id="grid">
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "interface"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-1.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="#"><i class="fa fa-link"></i></a>                          
+                  </div><!-- /.links -->
+                  <img src="assets/images/works/portfolio-1.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>MBTI 예측 모델 개발</h3>
+                    <p>Python, NLP, 머신러닝</p>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
+
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "web"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-2.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="#"><i class="fa fa-link"></i></a>                          
+                  </div><!-- /.links -->
+                  <img src="assets/images/works/portfolio-2.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>졸음운전 감지 및 차량 문 제어 시스템</h3>
+                    <p>Python, OpenCV, 얼굴 인식, YOLO, LBPH, WebFlask</p>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
+          </div><!-- /#grid -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- End Works Section -->
+
+    <!-- Hire Section -->
+    <section class="hire-section text-center" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+      <div class="hire-section-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>I'm available for freelance project</h2>
+            </div><!-- /.col-md-12 -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </div><!-- /.hire-section-bg -->
+    </section><!-- End Hire Section -->
+
+
+	<!-- Footer Section -->
+    <footer class="footer-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="copyright text-center">
+             Thank you for <i class="fa fa-love"></i><a>watch my portfolio</a>
+            </div>
+          </div>
         </div>
-    </section>
-    <section id="skills" class="section">
-        <h2>기술</h2>
-        <ul>
-            <li>Python</li>
-            <li>R</li>
-            <li>SQL</li>
-            <li>TensorFlow</li>
-            <li>OpenCV</li>
-            <li>Machine Learning</li>
-            <li>Deep Learning</li>
-            <li>Data Analysis</li>
-            <li>Data Visualization</li>
-        </ul>
-    </section>
-    <section id="projects" class="section">
-        <h2>프로젝트</h2>
-        <div class="project">
-            <h3>MBTI 예측 모델</h3>
-            <p>자기소개서를 기반으로 MBTI 성격 유형을 예측하는 모델 개발. 사용 기술: Python, NLP, 머신 러닝</p>
-            <a href="https://github.com/STEVESEUNGWON/portfolio/tree/main/mbti-prediction">GitHub 링크</a>
-        </div>
-        <div class="project">
-            <h3>졸음운전 감지 및 얼굴 인식을 활용한 차량 문 제어 시스템</h3>
-            <p>OpenCV를 사용하여 졸음운전을 감지하고 얼굴 인식 기술을 활용하여 차량 문을 제어하는 시스템 구현. 사용 기술: Python, OpenCV, 얼굴 인식, YOLO, LBPH, WebFlask</p>
-            <a href="https://github.com/STEVESEUNGWON/portfolio/tree/main/drowsiness-detection">GitHub 링크</a>
-        </div>
-    </section>
-    <section id="contact" class="section">
-        <h2>연락처</h2>
-        <p>Email: did******@naver.com</p>
-        <p>Phone: 010-****-2854</p>
-        <p>경기도 평택시</p>
-    </section>
-    <footer>
-        <p>&copy; 2024 양승원. All rights reserved.</p>
-    </footer>
+      </div>
+    </footer><!-- End Footer Section -->
+
+	<!-- Scroll-up -->
+	<div class="scroll-up">
+		<a href="#home"><i class="fa fa-angle-up"></i></a>
+	</div>
+
+	<!-- Javascript files -->
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.stellar.min.js"></script>
+	<script src="assets/js/jquery.sticky.js"></script>
+  <script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/jquery.countTo.js"></script>
+  <script src="assets/js/jquery.inview.min.js"></script> 
+  <script src="assets/js/jquery.easypiechart.js"></script>
+  <script src="assets/js/jquery.shuffle.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+  <script src="assets/js/jquery.fitvids.js"></script>
+
+  <script src="assets/js/scripts.js"></script>
 </body>
 </html>
