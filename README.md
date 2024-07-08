@@ -17,14 +17,14 @@ I am a data analyst, data scientist, and AI developer with a strong background i
 
 ## 📚 Education
 
-- **University:** Gongju National University (Expected graduation: July 2023)
+- **University:** Gongju National University (graduation: July 2023)
 - **Major:** Computer Science
 - **High School:** Anbeop High School (Graduated: February 2016)
 
 ## 🏆 Certifications and Awards
 
 - **Data Analysis Semi-Professional (ADsP):** Passed, November 2023
-- **Big Data Analysis Engineer:** Passed 1st stage, September 2023
+- **Big Data Analysis Engineer:** Passed, July 2024
 - **Information Processing Engineer:** Passed, June 2024
 - **TOEIC Speaking Test:** 130 points, Intermediate Mid3, March 2024
 - **Attendance Award:** ITWILL Education Institute, January 2024
