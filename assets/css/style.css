@@ -482,7 +482,12 @@ SOCIAL ICON
     margin: 0;
     text-transform: uppercase;
     font-family: 'Roboto Condensed', sans-serif;
+    position: fixed; /* 추가 */
+    top: 0; /* 추가 */
+    width: 100%; /* 추가 */
+    z-index: 1000; /* 추가 */
 }
+
 
 
 .navbar-custom,
