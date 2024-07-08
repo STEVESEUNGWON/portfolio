@@ -458,16 +458,20 @@
 
 <script>
 $(document).ready(function(){
-    // a[href*='#'] 선택자 사용 예시
-    $("a[href*='#']").on('click', function(event){
+    // 모든 앵커 태그 중 href 속성에 '#'이 포함된 경우
+    $('a[href*="#"]').on('click', function(event){
         event.preventDefault(); // 기본 동작을 막습니다
         var target = $(this).attr('href'); // 클릭된 앵커의 href 값을 가져옵니다
         $('html, body').animate({
             scrollTop: $(target).offset().top
         }, 1000);
     });
+
+    // 패시브 이벤트 리스너 문제 해결
+    document.addEventListener('touchstart', function(){}, {passive: false});
 });
 </script>
+
 
 
 </body>
