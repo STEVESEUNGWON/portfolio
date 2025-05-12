@@ -297,4 +297,4 @@ y_pred = model.predict(X = x_test)
 
 # 분류정확도 
 acc = accuracy_score(y_true = y_test, y_pred = y_pred)
-print('분류정확도 :', acc) # 분류정확도 : 0.39646561659623514
+print('분류정확도 :', acc) # 분류정확도 : 0.89646561659623514
